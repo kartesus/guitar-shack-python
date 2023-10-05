@@ -1,0 +1,37 @@
+# Python Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Configuration Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# FastAPI Specific
+db.sqlite3
+
+# Test Artifacts
+.tox/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+test/
+test_*.py
